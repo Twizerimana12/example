@@ -1,0 +1,102 @@
+body{
+
+ text-align: right;
+ background-color: black;
+
+}
+
+
+.text{
+    padding-top: 20%;
+
+}
+p{
+    text-align: center;
+    
+}
+.bt-one{
+    border: solid;
+    display: block;
+    width: 120px;
+    height: 20px;
+    background-color: cadetblue;
+    margin: auto;
+    text-align: center;
+    padding-right: 20 px;
+
+}
+.btn-two{
+    border:solid ;
+    display:block;
+    width: 120;
+    height: 20;
+    background-color: cadetblue;
+    margin:auto;
+    text-align: left;
+}
+.container
+{
+    display:flex;
+    justify-content:center;
+    padding: 10px;
+
+}
+.card
+{
+    background: blue;
+    height: 300px;
+    width:40%;
+    padding: 10px 10px 10px 10px;
+    margin:10px;
+    
+}
+.image2
+{
+    background:url("image2.jpeg" );
+    height: 180px;
+    
+    text-align:center;
+    justify-content: center;
+
+}
+.image3
+{
+    background:pink;
+
+    height:30%;
+    
+    text-align:left;
+}
+.image4
+{
+    background:black;
+    height:30%;
+    text-align:right;
+}
+h2
+{
+    text-align:center;
+}
+.card:hover
+{
+    background:black;
+    
+}
+.button
+{
+    display:flex;
+}
+.button a{
+    display: block;
+    background: black;
+}
+.button a:hover{
+    background: blue;
+}
+.nav-bar
+{
+    background: chartreuse;
+}
+.nav-bar a:hover{
+    background: red;
+}
